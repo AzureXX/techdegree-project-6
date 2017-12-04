@@ -2,14 +2,6 @@ $('video').mediaelementplayer({
   features: ["playpause", "current", "progress", "duration", "volume", "fullscreen"],
 });
 
-
-$("span").click( (e) => {
-  $('video').mediaelementplayer.currentTime = e.target.startTime;
-});
-
-
-
-
 const video = $('video')[0];
 const spans = $('p span');
 
