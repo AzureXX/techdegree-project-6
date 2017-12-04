@@ -1,0 +1,28 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.highlight {
+  background-color: red;
+  color: blue;
+}
+
+
+@media (min-width: 768px) {
+  main {
+    width: 80%;
+    margin: 2em auto;
+  }
+}
