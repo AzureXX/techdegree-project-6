@@ -27,6 +27,5 @@ video.addEventListener('timeupdate', () => {
 });
 
 spans.click( (e) => {
-
     video.currentTime = e.target.getAttribute('startTime');
 });
